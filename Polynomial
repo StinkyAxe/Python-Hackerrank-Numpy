@@ -1,0 +1,27 @@
+Task
+
+You are given the coefficients of a polynomial .
+Your task is to find the value of  at point .
+
+Input Format
+
+The first line contains the space separated value of the coefficients in P.
+The second line contains the value of a.
+
+Output Format
+
+Print the desired value.
+
+Sample Input
+
+1.1 2 3
+0
+Sample Output
+
+3.0
+
+
+#Python Program:
+P = list(map(float, input().split())
+a = int(input())
+print(numpy.polyval(p,x)) #This will evaluate the Polynomial at points P.And its formula is (f=(x**(l-i-1))*coeff[i]+f).
