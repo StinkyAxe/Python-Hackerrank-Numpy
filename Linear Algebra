@@ -21,8 +21,9 @@ Sample Output
 0.0
 
 
+#Python Program.
 import numpy
 n=int(input())
-a=numpy.array([input().split() for _ in range(n)],float)
-numpy.set_printoptions(legacy='1.13') #important
-print(numpy.linalg.det(a))
+a=numpy.array([input().split() for _ in range(n)],float) #One lined using List Comprehension.
+numpy.set_printoptions(legacy='1.13') 
+print(numpy.linalg.det(a)) #Perform Linear Algebra to find determinant.
