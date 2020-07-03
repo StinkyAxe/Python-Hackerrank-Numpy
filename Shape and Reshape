@@ -20,7 +20,7 @@ Sample Output
  [7 8 9]]
  
  
- #Driver code:
+#Python code:
 import numpy
 a=numpy.array(list(map(int,input().split())))
 print(numpy.reshape(a,(3,3)))
